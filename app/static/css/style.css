@@ -1,0 +1,33 @@
+:root {
+    --color-text: rgb(133, 10, 10);
+    --color-background: black;
+}
+
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: Grenze Gotisch;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+h1 {
+    font-family: Pacifico;
+}
+
+.header, .info, .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info {
+    line-height: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1rem;
+}
